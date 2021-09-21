@@ -23,17 +23,18 @@
 
 - `test_command` (e.g. `rspec`)
 
-
-## User Stories 
+## User Stories
 
 ### Flow Chart
+
 ![Flow Chart](https://lucid.app/publicSegments/view/b3c59445-51c6-4573-abd2-0e3e7ef5ab4c/image.png)
 
 ### Table
-| Objects | Messages |
-|---------|----------|
-| Person | use_if_working |
-| Bike | check_if_working |
+
+| Objects         | Messages          |
+| --------------- | ----------------- |
+| Person          | use_if_working    |
+| Bike            | check_if_working  |
 | Docking Station | check_can_release |
 
 ## To Do's
@@ -44,8 +45,8 @@
 - [x] Errors are good
 - [x] From Feature Tests to Unit Tests
 - [x] Passing your first Unit Test
-- [ ] Back to the feature
-- [ ] Back to the unit
+- [x] Back to the feature
+- [x] Back to the unit
 - [ ] Building a bike
 - [ ] Making Docking Stations get Bikes
 - [ ] Using Instance Variables

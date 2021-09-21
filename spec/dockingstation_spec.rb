@@ -1,5 +1,15 @@
 require "dockingstation"
 
 describe "dockingstation" do
-  docking_station = DockingStation.new
+  it "releases bike" do
+    docking_station = DockingStation.new
+    expect(docking_station.release_bike?).to eq true
+  end
 end
+
+# describe "dockingstation" do
+#   it { is_expected.to release_bike }
+# end
+
+
+
