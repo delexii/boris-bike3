@@ -48,7 +48,7 @@
 - [x] Back to the feature
 - [x] Back to the unit
 - [x] Building a bike
-- [ ] Making Docking Stations get Bikes
+- [x] Making Docking Stations get Bikes
 - [ ] Using Instance Variables
 - [ ] Raising Exceptions
 - [ ] Limiting Capacity
