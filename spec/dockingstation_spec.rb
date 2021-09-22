@@ -16,11 +16,10 @@ describe DockingStation do
     expect(subject.dock(bike).first.instance_of? Bike).to eq true
   end
 
-  it "returns the value of the @bike variable" do
+  it "returns the value of the dockedbike variable" do
     dockingstation = DockingStation.new
     bike = Bike.new
     dockingstation.dock(bike)
-    p dockingstation.dockedbike
     expect(dockingstation.dockedbike.first.instance_of? Bike).to eq true
   end
 end
