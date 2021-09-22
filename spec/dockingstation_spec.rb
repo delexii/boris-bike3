@@ -7,9 +7,21 @@ describe DockingStation do
     expect(subject.release_bike?.instance_of? Bike).to eq true 
   end
   
-  it "gets bike" do
+  it "gets bike and checks its working" do
+    expect(subject.release_bike?.working?).to eq true
+  end
+
+  it "registers a docked bike" do
     bike = Bike.new
-    expect(bike.working?).to eq true
+    expect(subject.dock(bike).first.instance_of? Bike).to eq true
+  end
+
+  it "returns the value of the @bike variable" do
+    dockingstation = DockingStation.new
+    bike = Bike.new
+    dockingstation.dock(bike)
+    p dockingstation.dockedbike
+    expect(dockingstation.dockedbike.first.instance_of? Bike).to eq true
   end
 end
 
